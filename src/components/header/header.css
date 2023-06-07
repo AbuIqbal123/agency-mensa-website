@@ -1,0 +1,41 @@
+.root {
+  flex-grow: 1;
+}
+
+.header {
+  background: linear-gradient(to bottom right, #000, #333);
+  width: 100%;
+}
+.root.sticky .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+  color: white;
+}
+
+.social-icons .iconButton:not(:first-child) {
+  margin-left: 1px; /* Adjust the value to add more space */
+}
+
+.title {
+  flex-grow: 1;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  font-weight: bold;
+  padding-right: 6.5%;
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .social-icons {
+    margin-right: 8px;
+  }
+}
