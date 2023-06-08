@@ -1,5 +1,6 @@
 import React from "react";
 import "./home.css";
+import tiktokHomePage from "../../assets/images/tiktok-home.webp";
 
 const Home: React.FC = () => {
   return (
@@ -21,6 +22,9 @@ const Home: React.FC = () => {
             <span>Contact us now and prepare for remarkable results</span>
           </button>
         </div>
+      </div>
+      <div className="image-wrapper">
+        <img src={tiktokHomePage} alt="TikTok Ads" />
       </div>
     </div>
   );
