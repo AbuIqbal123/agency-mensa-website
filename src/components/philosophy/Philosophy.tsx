@@ -1,25 +1,29 @@
 import React from "react";
 import "./philosophy.css";
+import statistics from "../../assets/images/statistics-philosophy.png";
 
 const Philosophy: React.FC = () => {
   return (
     <div className="philosophy">
       <div className="stats-text">
-        <p>Don't just take our word for it</p>
+        <h1>Don't just take our word for it</h1>
       </div>
-      <div className="box-container container">
-        <div className="box box1">
-          <p>Box 1 content</p>
-        </div>
-        <div className="box box2">
-          <p>Box 2 content</p>
-        </div>
-        <div className="box box3">
-          <p>Box 3 content</p>
-        </div>
-        <div className="box box4">
-          <p>Box 4 content</p>
-        </div>
+      <div className="stats__img">
+        <img src={statistics} alt="TikTok Statistics" className="stats-image" />
+      </div>
+      <div className="philosophy__text--header">
+        <h1>Our Philosophy</h1>
+      </div>
+      <div className="philosophy__text">
+        <p>Unlock Unparalleled Results with Agency Mensa</p>
+        <p>
+          Millions of dollars in return on ad spend. No inefficiencies or
+          formalities{" "}
+        </p>
+        <p>
+          Our client case studies are legendary. Our waiting list speaks
+          volumes. We seek ambitious clients ready for extraordinary growth
+        </p>
       </div>
     </div>
   );
