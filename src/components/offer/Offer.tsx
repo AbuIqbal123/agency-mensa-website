@@ -1,5 +1,6 @@
 import React from "react";
 import "./offer.css";
+import tiktokOffer from "../../assets/images/tiktok-offer-img.webp";
 
 const Offer: React.FC = () => {
   return (
@@ -31,7 +32,9 @@ const Offer: React.FC = () => {
           </button>
         </div>
       </div>
-      <div className="image-wrapper"></div>
+      <div className="image-wrapper-offer">
+        <img src={tiktokOffer} alt="TikTok Ads" />
+      </div>
     </div>
   );
 };
