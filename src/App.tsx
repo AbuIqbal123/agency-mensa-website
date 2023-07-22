@@ -4,6 +4,7 @@ import Header from "./components/header/Header";
 import Home from "./components/home/Home";
 import Philosophy from "./components/philosophy/Philosophy";
 import Offer from "./components/offer/Offer";
+import Contact from "./components/contact/Contact";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Home />
         <Philosophy />
         <Offer />
+        <Contact />
       </main>
     </>
   );
