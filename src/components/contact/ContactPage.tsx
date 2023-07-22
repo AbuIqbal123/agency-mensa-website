@@ -28,22 +28,22 @@ const Contact: React.FC = () => {
   return (
     <section className="contact section" id="contact">
       <h2 className="section__title">Get in touch</h2>
+      <span className="section__subtitle">Contact Me</span>
 
       <div className="contact__container container grid">
         <div className="contact__content">
-          <h3 className="contact__title">Talk to us</h3>
+          <h3 className="contact__title">Talk to me</h3>
           <div className="contact__info">
             <div className="contact__card">
               <i className="bx bx-mail-send contact__card-icon"></i>
 
               <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">sales@agencymensa.com</span>
+              <span className="contact__card-data">ahmil2010@gmail.com</span>
 
               <a
                 href="mailto:ahmil2010@gmail.com"
                 target="_blank"
                 className="contact__button"
-                rel="noreferrer"
               >
                 Write me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
@@ -60,7 +60,6 @@ const Contact: React.FC = () => {
                 href="https://api.whatsapp.com/send?phone=+447903435375&text=Hello! I just had a look through your website."
                 target="_blank"
                 className="contact__button"
-                rel="noreferrer"
               >
                 Write me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
@@ -79,7 +78,6 @@ const Contact: React.FC = () => {
                 href="https://m.me/abubaker.iqbal.77"
                 target="_blank"
                 className="contact__button"
-                rel="noreferrer"
               >
                 Write me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
@@ -89,7 +87,7 @@ const Contact: React.FC = () => {
         </div>
 
         <div className="contact__content">
-          <h3 className="contact__title">Write us your project</h3>
+          <h3 className="contact__title">Write me your project</h3>
 
           <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">
