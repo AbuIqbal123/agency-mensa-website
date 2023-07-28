@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { AppBar, Toolbar, IconButton, Typography } from "@mui/material";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import InstagramIcon from "@mui/icons-material/Instagram";
+import { Facebook, Instagram, WhatsApp } from "@mui/icons-material";
 import "./header.css";
 
 const Header: React.FC = () => {
@@ -27,14 +25,32 @@ const Header: React.FC = () => {
       <AppBar className="header">
         <Toolbar>
           <div className="social-icons">
-            <IconButton edge="start" color="inherit" className="iconButton">
-              <FacebookIcon />
+            <IconButton
+              edge="start"
+              color="inherit"
+              className="iconButton"
+              href="https://www.facebook.com/profile.php?id=100091911396129"
+              target="_blank"
+            >
+              <Facebook />
             </IconButton>
-            <IconButton edge="start" color="inherit" className="iconButton">
-              <TwitterIcon />
-            </IconButton>
-            <IconButton edge="start" color="inherit" className="iconButton">
-              <InstagramIcon />
+            <IconButton
+              edge="start"
+              color="inherit"
+              className="iconButton"
+              href="https://www.instagram.com/agencymensa"
+              target="_blank"
+            >
+              <Instagram />
+            </IconButton>{" "}
+            <IconButton
+              edge="start"
+              color="inherit"
+              className="iconButton"
+              href="https://api.whatsapp.com/send?phone=+447903435375&text=Hello!%20I%20just%20had%20a%20look%20through%20your%20website."
+              target="_blank"
+            >
+              <WhatsApp />
             </IconButton>
           </div>
           <Typography variant="h6" component="div" className="title">

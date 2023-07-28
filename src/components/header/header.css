@@ -21,7 +21,7 @@
 }
 
 .social-icons .iconButton:not(:first-child) {
-  margin-left: 1px; /* Adjust the value to add more space */
+  margin-left: 1px; 
 }
 
 .title {
@@ -29,7 +29,7 @@
   text-align: center;
   margin: 0 auto;
   color: white;
-  font-weight: bold;
+  font-weightt: 600;
   padding-right: 6.5%;
 }
 
