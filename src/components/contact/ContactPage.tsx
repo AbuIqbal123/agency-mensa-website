@@ -16,6 +16,7 @@ import ContactForm from "./ContactForm";
 const Contact: React.FC = () => {
   const contactRef = useRef<HTMLDivElement>(null);
   return (
+    <section id="contact">
     <div className="contact" ref={contactRef}>
       <div className="contact__header">
         <Typography
@@ -85,6 +86,7 @@ const Contact: React.FC = () => {
         </Grid>
       </Grid>
     </div>
+    </section>
   );
 };
 

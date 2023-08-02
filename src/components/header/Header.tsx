@@ -53,6 +53,20 @@ const Header: React.FC = () => {
               <WhatsApp />
             </IconButton>
           </div>
+          <div className="nav-links">
+            <a href="#home" className="nav-link">
+              Home
+            </a>
+            <a href="#philosophy" className="nav-link">
+              Philosophy
+            </a>
+            <a href="#offer" className="nav-link">
+              Offer
+            </a>
+            <a href="#contact" className="nav-link">
+              Contact
+            </a>
+          </div>
           <Typography variant="h6" component="div" className="title">
             Agency Mensa
           </Typography>

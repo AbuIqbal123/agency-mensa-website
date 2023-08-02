@@ -10,7 +10,7 @@ import {
 import MessageIcon from "@mui/icons-material/Message";
 import emailjs, { EmailJSResponseStatus } from "emailjs-com";
 
-const SERVICE_ID = "service_38bn3ab";
+const SERVICE_ID = "service_cnj6jhf";
 const TEMPLATE_ID = "template_7jubvgi";
 const PUBLIC_KEY = "n1sNFDqZhrUh-5Scx";
 

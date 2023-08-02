@@ -4,6 +4,7 @@ import tiktokOffer from "../../assets/images/tiktok-offer-img.webp";
 
 const Offer: React.FC = () => {
   return (
+    <section id="offer">
     <div className="offer">
       <div className="offer__content">
         <div className="offer__title">
@@ -27,15 +28,18 @@ const Offer: React.FC = () => {
           </p>
         </div>
         <div className="contact__button">
+          <a href="#contact">
           <button>
             <span>Speak to our team today</span>
           </button>
+          </a>
         </div>
       </div>
       <div className="image-wrapper-offer">
         <img src={tiktokOffer} alt="TikTok Ads" />
       </div>
     </div>
+    </section>
   );
 };
 

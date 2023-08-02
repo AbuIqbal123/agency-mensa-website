@@ -4,6 +4,7 @@ import statistics from "../../assets/images/statistics-philosophy.png";
 
 const Philosophy: React.FC = () => {
   return (
+    <section id="philosophy">
     <div className="philosophy">
       <div className="stats-text">
         <h1>Don't just take our word for it</h1>
@@ -26,6 +27,7 @@ const Philosophy: React.FC = () => {
         </p>
       </div>
     </div>
+    </section>
   );
 };
 
