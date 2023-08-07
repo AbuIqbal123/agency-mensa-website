@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/alt-text */
 import React, { useEffect, useState } from "react";
 import { AppBar, Toolbar, IconButton, Typography } from "@mui/material";
 import { Facebook, Instagram, WhatsApp } from "@mui/icons-material";
