@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e747275d.css",
+    "main.js": "/static/js/main.d399ec4b.js",
+    "static/js/787.04d10522.chunk.js": "/static/js/787.04d10522.chunk.js",
+    "static/media/tiktok-offer-img.webp": "/static/media/tiktok-offer-img.9948a605d499bc607c94.webp",
+    "static/media/statistics-philosophy.png": "/static/media/statistics-philosophy.d26b767d019d7c6c2d86.png",
+    "static/media/tiktok-home.webp": "/static/media/tiktok-home.1cb27dd3760a691f1823.webp",
+    "index.html": "/index.html",
+    "static/media/mob_nav.svg": "/static/media/mob_nav.4ad76d2ff73bee2d6e1e109c0c8436d9.svg",
+    "static/media/mob_close.svg": "/static/media/mob_close.6d6a1268e2687841a1b58f4ce2b80e7d.svg",
+    "main.e747275d.css.map": "/static/css/main.e747275d.css.map",
+    "main.d399ec4b.js.map": "/static/js/main.d399ec4b.js.map",
+    "787.04d10522.chunk.js.map": "/static/js/787.04d10522.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e747275d.css",
+    "static/js/main.d399ec4b.js"
+  ]
+}
