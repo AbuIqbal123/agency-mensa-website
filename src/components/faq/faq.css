@@ -1,0 +1,25 @@
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 80vh; /* Set minimum height to 80vh */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+  }
+  
+  .faq {
+    margin-bottom: 10px;
+  }
+  
+  .faq-summary {
+    font-weight: bold;
+  }
+  
+  /* Add media query for mobile responsiveness */
+  @media (max-width: 768px) {
+    .faq-container {
+      padding: 10px; /* Adjust padding for mobile */
+    }
+  }
+  

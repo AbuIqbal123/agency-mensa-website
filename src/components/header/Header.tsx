@@ -92,6 +92,9 @@ const Header: React.FC = () => {
             <a href="#offer" className="nav-link" onClick={handleClickNav}>
               Offer
             </a>
+            <a href="#faq" className="nav-link" onClick={handleClickNav}>
+              FAQs
+            </a>
             <a href="#contact" className="nav-link" onClick={handleClickNav}>
               Contact
             </a>
