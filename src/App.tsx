@@ -6,6 +6,7 @@ import Philosophy from "./components/philosophy/Philosophy";
 import Offer from "./components/offer/Offer";
 import Contact from "./components/contact/ContactPage";
 import Faq from "./components/faq/Faq";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -16,8 +17,10 @@ function App() {
         <Philosophy />
         <Offer />        
         <Faq />
-        <Contact />
+        <Contact />   
+        <Footer />
       </main>
+   
     </>
   );
 }
